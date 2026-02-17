@@ -6,91 +6,65 @@
 
 </div>
 
-
-<!--![Excel](https://raw.githubusercontent.com/PratyushPuri/Excel-Module-Assignment/refs/heads/main/Assn1%20Dash.png)-->
-
-## **Overview**
-
-This project helps me apply Excel concepts practically. I can build end-to-end Excel solutions by cleaning, analyzing, and visualizing data to create interactive dashboards that provide clear, actionable business insights.
-
-
-## **Dataset for Analysis**
-
-The project uses the widely-used **Sample Superstore Sales dataset**, a business dataset that simulates sales, profit, and customer data for a global retail chain.
-
-**You can download the dataset directly via this link:**  
-**[Sample Superstore Sales Excel File](https://community.tableau.com/s/question/0D54T00000CWeX8SAL/sample-superstore-sales-excelxls)**
-
-**Dataset Overview:**
-*   **Structure:** The file is an Excel workbook (`.xls`) with multiple sheets that contain interrelated data.
-*   **Key Tables:** The main tables are **Orders**, **Returns**, and **People**. These can be linked to perform a complete analysis.
-*   **Data Scope:** It includes four years of transaction data from 2014 to 2017 across the **United States**, divided into four regions.
-*   **Rich Attributes:** Each record has detailed dimensions and metrics, such as:
-    *   **Customer Details:** Customer Name, Segment.
-    *   **Product Information:** Category, Sub-Category, Product Name.
-    *   **Geographic Data:** Country, Region, State, City, Postal Code.
-    *   **Sales Metrics:** Sales, Quantity, Discount, Profit.
-    *   **Order Details:** Order Date, Ship Date, Ship Mode, Order ID.
-
-## **Analysis**
-
-> Solution File is `Sample - Superstore - Solution.xlsx`
-
-This project aimed to build and showcase basic to intermediate Excel skills through hands-on tasks with the Sample Superstore dataset which included:
-
-*   **Core Operations:** Learned key functions like `SUM`, `MAX/MIN`, `COUNT` variants, and `POWER` for growth calculations.
-*   **Data Structuring:** Used `TRANSPOSE` and practiced various techniques for cell, number, and text formatting to improve clarity.
-*   **Data Organization:** Applied multi-level sorting and filtering, including by values, text, and cell color.
-*   **Date & Logic:** Performed date calculations (`DATEDIF`, `TODAY`) and included logical tests with `IF`, `AND`, `OR`, and `IFERROR`.
-*   **Data Cleaning:** Carried out thorough cleaning using `TRIM`, `PROPER`, `TEXT TO COLUMNS`, `FIND & REPLACE`, and the `Go To Special` feature to manage duplicates, errors, and inconsistent text.
-*   **Data Analysis:** Created and customized **Pivot Tables** for dynamic summarization, grouping, and conditional formatting.
-*   **Data Lookup & Matching:** Used `VLOOKUP`/`HLOOKUP` for data retrieval and comparison across tables.
-*   **Conditional Aggregation:** Applied `SUMIFS`, `COUNTIFS`, and `AVERAGEIF` to perform calculations based on single and multiple criteria.
-
-This exercise transformed raw sales data into a clean, analyzed, and well-presented dataset, reinforcing my ability to use Excel as an effective tool for business intelligence and reporting.
-
-## **Dashboard Summary**
-
-This interactive dashboard provides a complete view of sales, profit, and product performance over several years.
-
-**Key Performance Indicators (KPIs):**
-*   **Total Sales:** **¥2.29M**; **Total Profit:** **¥286K**.
-*   **Product Breadth:** Covers **17 Sub-Categories** with **9994 units** sold.
-*   **Category Split:** Sales are divided among **Furniture, Office Supplies** and **Technology**.
-
-**Visualizations & Insights:**
-*   **Sales by Sub-Category:** A detailed breakdown shows top-performing items like **Copiers, Phones** and **Chairs**, along with low-margin categories.
-*   **Segment & Region Analysis:** A stacked bar chart shows that the **Consumer segment** leads sales in all regions; the **West** is the top market.
-*   **Top 10 Products:** Highlights specific high-revenue items like **Canon imageCLASS Copiers** and **Cisco TelePresence Systems**.
-*   **Discount Impact:** A critical view shows how discount percentages influence sales volume across various customer segments.
-*   **Sales Trend:** A line chart tracks monthly sales and profit over time; it reveals seasonal peaks, such as in November, and troughs.
-
-This dashboard helps quickly identify revenue drivers, profitability by category, regional opportunities, and the effect of promotional strategies.
+## Problem Statement
+Excel remains a core tool for business analysis, yet many analysts struggle to move from basic formulas to **end-to-end analytical workflows**. This project applies Excel to the **Sample Superstore Sales** dataset to practice and demonstrate skills in data cleaning, exploration, and dynamic reporting—culminating in an interactive sales performance dashboard for decision-makers.
 
 ---
 
-![Excel](/Assn1%20Dash.png)
+## Analysis Done
+- Worked with the **Sample Superstore Sales** Excel workbook containing **Orders, Returns, and People** tables, covering U.S. retail sales from 2014–2017.
+- Strengthened core Excel skills:
+  - **Essential functions:** `SUM`, `MIN`/`MAX`, `COUNT` variants, and `POWER` for aggregations and growth-rate calculations.
+  - **Presentation & formatting:** Used `TRANSPOSE`, custom number formats, and cell styling to make reports clearer and more readable.
+- Organized and cleaned data:
+  - Applied **multi-level sorting** and **advanced filters** (by values, text, and color) for structured views.
+  - Performed data cleaning using `TRIM`, `PROPER`, **Text to Columns**, **Find & Replace**, and **Go To Special`** to address duplicates, spacing, and text issues.
+- Built analysis logic:
+  - Used `DATEDIF` and `TODAY` for date calculations and time-based metrics.
+  - Created conditional logic with `IF`, `AND`, `OR`, and wrapped calculations with `IFERROR` for robust formulas.
+- Performed business analysis:
+  - Built **PivotTables** to summarize sales and profit by category, segment, region, and time period.
+  - Joined information across sheets using `VLOOKUP`/`HLOOKUP` where needed.
+  - Calculated conditional metrics using `SUMIFS`, `COUNTIFS`, and `AVERAGEIF` for targeted performance insights.
+- Overall, raw transactional data was transformed into a clean, structured, and analysis-ready dataset fully driven by Excel features.
 
 ---
 
-## **How to Use the Superstore Sales Dashboard**
+## Dashboard Overview
+> To use the dashboard, open `Solution.xlsx` and navigate to the **“Dashboard”** sheet. All interactive elements work only on this tab.
 
-This interactive dashboard is designed for easy exploration of sales performance. Follow these steps to gain insights:
+The Excel dashboard presents a concise yet comprehensive view of Sample Superstore performance:
 
-1.  **Open the File:** Launch the `Sample - Superstore - Solution.xlsx` file in Microsoft Excel.
+- **Key metrics:**
+  - Total Sales: **₹22,97,200.86**
+  - Total Profit: **₹2,86,397.02**
+  - Sub-categories: **17**
+  - Total quantity sold: **9,994 units**
+- **Sales & profit insights:**
+  - Sales by **Category** (Furniture, Office Supplies, Technology), with top sub-categories such as **Tables** and **Chairs**.
+  - Sales by **Segment and Region**, highlighting performance of Corporate and Consumer segments across Central, East, South, and West.
+- **Product performance:**
+  - **Top 10 Products by Sales**, including items like **Canon imageCLASS 2200 Advanced Copier** and **3D Systems Cube Printer**.
+- **Pricing & discount behavior:**
+  - Sales with discount by **Segment**, showing how discount strategies affect revenue for Consumer, Corporate, and Home Office customers.
+- **Time trends:**
+  - **Sales Over Time** bar chart (Jan–Nov) displaying sales with corresponding profit trends.
+- Built for business users to monitor performance, identify high-value products, and fine-tune pricing, discount, and inventory strategies.
 
-2.  **Navigate & Interact:**
-    *   **Review KPIs:** Start by looking at the high-level metrics at the top: **Total Sales, Total Profit, and Quantity Sold**.
-    *   **Apply Filters:** Use the interactive slicers, such as **Year** and **Category**, to filter the entire dashboard. For example, select **"2015"** or **"Technology"** to view performance for that specific year or category.
-    *   **Analyze Charts:** Click on or hover over any chart element. Clicking a segment in the **"Sales by Sub-Category"** chart can filter other visuals. Hovering reveals exact values and percentages.
+![Excel Superstore Dashboard](Assin_dashboard.PNG)
 
-3.  **Refresh Data (If Applicable):**
-    *   If the workbook is linked to an updated dataset, refresh the analysis by going to the **Data** tab and selecting **"Refresh All."**
+---
 
+## Recommendations
+- **Focus on high-value sub-categories:** Prioritize inventory and promotions for top performers like Tables, Chairs, and leading technology products.
+- **Optimize discount strategy:** Use discount vs. sales visuals to reduce over-discounting in segments where profit margins are already tight.
+- **Leverage regional strengths:** Invest in marketing and service in regions and segments showing strong growth, while diagnosing weak regions through deeper drill-downs.
+- **Monitor category and time trends:** Use the dashboard regularly to track monthly performance and adjust tactics ahead of peak or low-demand periods.
 
+---
 ## Author & Contact
-- Name: `Pratyush Puri`
-- Contact: `pratyushpuri17@gmail.com` / [LinkedIn](https://www.linkedin.com/in/pratyushpuri)
+- Name: `Aryan Singh`
+- Contact: `aryancodex2000@gmail.com` / [LinkedIn](https:www.linkedin.com/in/aryan-singh2000)
     
 
 
