@@ -2,7 +2,7 @@
 
 <div align="center">
 
-<img src="excel.jpeg" alt="drawing" width="300"/>
+<img src="excel.jpeg" alt="drawing" width="300"/>  
 
 </div>
 
