@@ -1,9 +1,7 @@
 # Excel-Module-Assignment
 
 <div align="center">
-
-<img src="excel.jpeg" alt="drawing" width="300"/>  
-
+  <img src="./excel.jpeg" alt="Excel project cover" width="300"/>
 </div>
 
 ## Problem Statement
@@ -18,7 +16,7 @@ Excel remains a core tool for business analysis, yet many analysts struggle to m
   - **Presentation & formatting:** Used `TRANSPOSE`, custom number formats, and cell styling to make reports clearer and more readable.
 - Organized and cleaned data:
   - Applied **multi-level sorting** and **advanced filters** (by values, text, and color) for structured views.
-  - Performed data cleaning using `TRIM`, `PROPER`, **Text to Columns**, **Find & Replace**, and **Go To Special`** to address duplicates, spacing, and text issues.
+  - Performed data cleaning using `TRIM`, `PROPER`, **Text to Columns**, **Find & Replace**, and **Go To Special** to address duplicates, spacing, and text issues.
 - Built analysis logic:
   - Used `DATEDIF` and `TODAY` for date calculations and time-based metrics.
   - Created conditional logic with `IF`, `AND`, `OR`, and wrapped calculations with `IFERROR` for robust formulas.
@@ -31,7 +29,7 @@ Excel remains a core tool for business analysis, yet many analysts struggle to m
 ---
 
 ## Dashboard Overview
-> To use the dashboard, open `Solution.xlsx` and navigate to the **“Dashboard”** sheet. All interactive elements work only on this tab.
+> To use the dashboard, open `Solution.xlsx` and navigate to the **Dashboard** sheet. All interactive elements work only on this tab.
 
 The Excel dashboard presents a concise yet comprehensive view of Sample Superstore performance:
 
@@ -51,8 +49,16 @@ The Excel dashboard presents a concise yet comprehensive view of Sample Supersto
   - **Sales Over Time** bar chart (Jan–Nov) displaying sales with corresponding profit trends.
 - Built for business users to monitor performance, identify high-value products, and fine-tune pricing, discount, and inventory strategies.
 
-[Excel Superstore Dashboard](Assin_dashboard.png)
-[Excel Dashboard:-](Assin_dashboard.png)
+### Dashboard Screenshot
+GitHub renders repository images in README using Markdown image syntax with relative paths [page:1].
+
+![Excel Superstore Dashboard](./Assin_dashboard.png)
+
+<!-- Optional: control width using HTML instead of Markdown
+<div align="center">
+  <img src="./Assin_dashboard.png" alt="Excel Superstore Dashboard" width="900"/>
+</div>
+-->
 
 ---
 
@@ -63,11 +69,8 @@ The Excel dashboard presents a concise yet comprehensive view of Sample Supersto
 - **Monitor category and time trends:** Use the dashboard regularly to track monthly performance and adjust tactics ahead of peak or low-demand periods.
 
 ---
+
 ## Author & Contact
 - Name: `Aryan Singh`
-- Contact: `aryancodex2000@gmail.com` / [LinkedIn](https:www.linkedin.com/in/aryan-singh2000)
-    
-
-
-
-
+- Email: `aryancodex2000@gmail.com`
+- LinkedIn: https://www.linkedin.com/in/aryan-singh2000/
