@@ -52,6 +52,7 @@ The Excel dashboard presents a concise yet comprehensive view of Sample Supersto
 - Built for business users to monitor performance, identify high-value products, and fine-tune pricing, discount, and inventory strategies.
 
 [Excel Superstore Dashboard](Assin_dashboard.png)
+[Excel Dashboard:-](Assin_dashboard.png)
 
 ---
 
