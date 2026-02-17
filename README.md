@@ -51,7 +51,7 @@ The Excel dashboard presents a concise yet comprehensive view of Sample Supersto
   - **Sales Over Time** bar chart (Jan–Nov) displaying sales with corresponding profit trends.
 - Built for business users to monitor performance, identify high-value products, and fine-tune pricing, discount, and inventory strategies.
 
-[Excel Superstore Dashboard](Assin_dashboard.PNG)
+[Excel Superstore Dashboard](Assin_dashboard.png)
 
 ---
 
